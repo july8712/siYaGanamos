@@ -5,4 +5,71 @@
 
 body{
     background-color:bisque;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+
+header{
+    background-color: #BF1B27;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+header img{
+    width: 65px;
+    height: 73.39px;
+    margin-left: 121px;
+    margin: 17px 121px  
+}
+
+.nav-link{
+    color: white;
+    margin-right: 63px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width:70%
+}
+
+#paraQuien{
+    background-image: url('../img/fondo.png');
+    display: flex;
+    flex-flow: column;
+    align-items:center ;
+
+}
+
+#paraQuienH3{
+    width: 420px;
+    height: 87px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 3.625rem;
+    color: white;
+}
+
+
+
+#generoRemera{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    font-weight: 800;
+}
+
+.generos{
+    background-color: seashell;
+    background-image: url('../img/imgEj.jpg') ;
+    background-size:cover;
+    width: 492px;
+    height: 439px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem ;
 }
