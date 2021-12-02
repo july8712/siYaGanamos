@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- <section>
             <div class="d-flex flex-column bd-highlight mb-3">
                 <h2>Hybrid Cloud</h2>
@@ -52,4 +53,60 @@
                     </div>
                 </div>
             </div>
+=======
+<!-- <section>
+            <div class="d-flex flex-column bd-highlight mb-3">
+                <h2>Hybrid Cloud</h2>
+                <p>Somos una compañía familiar creada en 2020 que busca a través de un software, facilitar al cliente tareas
+                    complejas, ayudandole a vender más, reducir gastos y tiempo,a pequeñas y mediano negocio, brindando los
+                    siguientes
+                    beneficios dependiendo al tamaño del negocio dividido en 3 planes (básico, medio y avanzado).
+                </p>
+            
+            
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Misión
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Establecer un vínculo comercial y de inteligencia de negocio con los
+                                emprendedores y grandes empresas con respecto a sus
+                                operaciones comerciales.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Visión
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Ser el principal proveedor de software en el ámbito de las pequeñas y
+                                grandes empresas incluyendo a emprendedores.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Valores
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Creatividad, eficiencia e innovación.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+>>>>>>> 3cc5ea7e1922840208526172947c66208b337e19
         </section> -->
