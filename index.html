@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+        <link rel="stylesheet" href="css/estilos.css">
     <title>Si Ya Ganamos</title>
 </head>
 <body>
     <header>
+
+        <img src="img\logo.png" alt="logoSYG">
     
         <nav>
             <ul class="nav justify-content-end">
@@ -34,62 +41,74 @@
     </header>
 
     <main>
-        <section>
-            <div class="d-flex flex-column bd-highlight mb-3">
-                <h2>Hybrid Cloud</h2>
-                <p>Somos una compañía familiar creada en 2020 que busca a través de un software, facilitar al cliente tareas
-                    complejas, ayudandole a vender más, reducir gastos y tiempo,a pequeñas y mediano negocio, brindando los
-                    siguientes
-                    beneficios dependiendo al tamaño del negocio dividido en 3 planes (básico, medio y avanzado).
-                </p>
+        <div id="carouselExampleIndicators" class="carousel .carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="img\exampleBanner.jpg " class="carouselImg" alt="bannerEj">
+              </div>
+              <div class="carousel-item">
+                <img src="img\exampleBanner.jpg " class="carouselImg" alt="bannerEj">
+            </div>
+              <div class="carousel-item">
+                <img src="img\exampleBanner.jpg " class="carouselImg" alt="bannerEj">
+            </div>
+            </div>
             
-            
-                <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                Misión
-                            </button>
-                        </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Establecer un vínculo comercial y de inteligencia de negocio con los
-                                emprendedores y grandes empresas con respecto a sus
-                                operaciones comerciales.</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                Visión
-                            </button>
-                        </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Ser el principal proveedor de software en el ámbito de las pequeñas y
-                                grandes empresas incluyendo a emprendedores.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                Valores
-                            </button>
-                        </h2>
-                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Creatividad, eficiencia e innovación.
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <section id="paraQuien">
+            <h3 id="paraQuienH3">Para quién comprás</h3>
+            <div id="generoRemera">
+            <div class="generos">
+                <p>Cuerva</p>
+            </div>
+            <div class="generos">
+                <p>Cuervo</p>
+            </div>
             </div>
         </section>
     </main>
+    <footer>
+        <div id="footerLeft">
+            <div id="contactanos" class="footerLeftDiv">
+                <p>Contactos</p>
+                <div class="displayRedes">
+                    
+                    <span class="iconify" data-icon="akar-icons:whatsapp-fill"></span>
+                    <p>+54 11 59261549</p>
+                </div>
+                <div class="displayRedes">
+                    <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+                    <p> @si.ya.ganamos</p>
+                </div>
+            </div>
+            <div class="metPagoEnvio">
+            
+                <p>Medios De Pago</p>
+                <div id="imgMedios">
+                    <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+                    <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+                    <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+                    <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+                </div>
+                
+            </div>
+            <div class="metPagoEnvio">
+                <p>Medios de envío</p>
+                <div>
+                    <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+                    <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>© 2021 Si Ya Ganamos</p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
