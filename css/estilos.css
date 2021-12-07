@@ -126,11 +126,14 @@ nav{
 
 .carouselImg{
     width: 100%;
-    height: 29em;
+    height: 23em;
 }
 
 .carousel{
-    height: 29rem;
+    margin-bottom: 5em;
+    height: 23rem;
+    position: relative;
+    top: 6em;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -140,6 +143,10 @@ nav{
    border-radius: 100%;
    background-color: red;
  }
+
+.paraQuienPage{
+    padding-top: 6em;
+}
 
  footer{
     background-color: #263D54;
