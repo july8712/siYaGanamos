@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;0,800;1,800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -25,14 +27,22 @@ header img{
 }
 
 .nav-link{
-    color: white;
+    color: white !important;
     margin-right: 63px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+.nav-link:hover, .nav-link:active{
+    border-bottom: 2px solid white !important;
+    color: white !important;
 }
 
 nav{
     display: flex;
     justify-content: center;
     width:70%
+    
 }
 
 #paraQuien{
@@ -63,8 +73,8 @@ nav{
 }
 
 .generos{
-    background-image: url('../img/imgEj.jpg') ;
-    background-size:cover;
+    /* background-image: url('../img/imgEj.jpg') ; */
+    /* background-size:cover; */
     width: 492px;
     height: 439px;
     display: flex;
@@ -73,6 +83,17 @@ nav{
     color: white;
     font-size: 2.5rem ;
 
+}
+
+.femenino{
+    background-image: url('../img/cuerva.jpg') ; 
+    background-size:cover;
+}
+
+.masculino{
+    background-image: url('../img/cuervo.jpg') ; 
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 
 .generos p{
