@@ -197,5 +197,56 @@ nav{
      width: 30%;
  }
 
+ #equipo{
+     padding-top:250px;
+ }
 
+ #equipo h2{
+     font-size: 30px;
+     font-weight: 700;
+     color: #fff;
+ }
+
+ #equipo p{
+     color: #fff;
+ }
+.equipo-img{
+    width: 610px;
+}
+
+#equipo h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
  
+#equipo h1::after {
+    content: "";
+    display: block;
+    background:#263D54;
+    width: 110%;
+    height: 20px;
+    margin-top: -15px;
+    position: relative;
+    z-index: -1;
+}
+
+#equipo .rounded-circle {
+    width: 100px;
+    margin: auto;
+}
+
+#equipo h3{
+    font-size: 22px;
+    font-weight: 700;
+    color:#fff;
+}
+
+.integrante{
+    width: 50%;
+}
