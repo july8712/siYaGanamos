@@ -12,12 +12,6 @@ body{
     font-family: 'Montserrat', sans-serif;;
 }
 
-main{
-    /* width: 100%;
-    display: flex; */
-    
-    
-}
 
 header{
     background-color: #BF1B27;
@@ -145,9 +139,7 @@ nav{
     padding: 0px;
 }
 
-.cuerva-wrap{
 
-}
 
 .modelo{
     width: 100%;
@@ -204,6 +196,10 @@ nav{
     justify-content: space-evenly;
     width: 50%;
     
+}
+
+.pagos{
+    width: 140px;
 }
 
 #contactanos{
@@ -290,4 +286,72 @@ nav{
 
 .integrante{
     width: 50%;
+}
+
+#contacto h1{
+    font-size: 40px;
+    font-weight: 800;
+    width: initial;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+#contacto h1::after {
+    content: "";
+    display: block;
+    background:#263D54;
+    width: 110%;
+    height: 20px;
+    margin-top: -15px;
+    position: relative;
+    z-index: -1;
+}
+
+#contacto h2{
+    font-size: 33.0882px;
+
+    font-weight: 800;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: initial;
+}
+ 
+#contacto h2::after {
+    content: "";
+    display: block;
+    background:#263D54;
+    width: 110%;
+    height: 20px;
+    margin-top: -15px;
+    position: relative;
+    z-index: -1;
+}
+
+
+#contacto{
+    padding: 250px;
+}
+
+.iconCont{
+    background-color: white;
+    border-radius:50%;
+    padding: 15px;
+    color: #263D54;
+}
+
+#contacto p{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+font-weight: 800;
+font-size: 24.0642px;
+text-align: center;
+color: white;
 }
