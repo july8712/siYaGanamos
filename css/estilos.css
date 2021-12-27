@@ -36,6 +36,7 @@ header img{
     margin-right: 63px;
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
+    border-bottom: 2px solid transparent !important;
 }
 
 .nav-link:hover, .nav-link:active{
