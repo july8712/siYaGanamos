@@ -355,3 +355,30 @@ font-size: 24.0642px;
 text-align: center;
 color: white;
 }
+
+#preguntas h2{
+  
+        font-size: 40px;
+        font-weight: 800;
+        color: #fff;
+        display: inline-block;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+     
+#preguntas h2::after {
+        content: "";
+        display: block;
+        background:#263D54;
+        width: 110%;
+        height: 20px;
+        margin-top: -15px;
+        position: relative;
+        z-index: -1;
+    }
+
+    #preguntas{
+        padding-top: 250px;
+    }
