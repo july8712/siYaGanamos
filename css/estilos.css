@@ -1,320 +1,425 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;0,800;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;0,800;1,800&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-image: url('../img/fondo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;;
+body {
+  background-image: url("../img/fondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
 }
 
-
-header{
-    background-color: #BF1B27;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 700;
-    position: fixed;
-    z-index: 10;
-    width: 100%;
+header {
+  background-color: #bf1b27;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 
-header img{
-    width: 65px;
-    height: 73.39px;
-    margin-left: 121px;
-    margin: 17px 121px  
+header img {
+  width: 65px;
+  height: 73.39px;
+  margin-left: 121px;
+  margin: 17px 121px;
 }
 
+.nav-link {
+  color: white !important;
+  margin-right: 63px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+
+<<<<<<< HEAD
 .nav-link{
     color: white !important;
     margin-right: 63px;
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
     border-bottom: 2px solid transparent !important;
+=======
+.nav-link:hover,
+.nav-link:active {
+  border-bottom: 2px solid white !important;
+  color: white !important;
+>>>>>>> 56e841455d1cd6fca5e0ba3d9658054182f79840
 }
 
-.nav-link:hover, .nav-link:active{
-    border-bottom: 2px solid white !important;
-    color: white !important;
+nav {
+  display: flex;
+  justify-content: center;
+  width: 70%;
 }
 
-nav{
-    display: flex;
-    justify-content: center;
-    width:70%
-    
+#paraQuien {
+  padding-bottom: 6em;
 }
 
-
-#paraQuien{
-    
-    padding-bottom: 6em;
-}
-
-#paraQuien h2{
-    display: inline-block;
-    font-weight: 800;
-    text-align: center;
-    margin: 3.625rem 0;
-    color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
+#paraQuien h2 {
+  display: inline-block;
+  font-weight: 800;
+  text-align: center;
+  margin: 3.625rem 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
 }
 
 #paraQuien h2::after {
-    content: "";
-    display: block;
-    background:#263D54;
-    width: 110%;
-    height: 20px;
-    margin-top: -15px;
-    position: relative;
-    z-index: -1;
+  content: "";
+  display: block;
+  background: #263d54;
+  width: 110%;
+  height: 20px;
+  margin-top: -15px;
+  position: relative;
+  z-index: -1;
 }
 
-#generoRemera{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    font-weight: 800;
+#generoRemera {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-weight: 800;
 }
 
-.generos{
-    /* background-image: url('../img/imgEj.jpg') ; */
-    /* background-size:cover; */
-    width: 25rem;
-    max-width: 100%;
-    height: 25rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 2.5rem ;
-    margin: auto;
+.generos {
+  /* background-image: url('../img/imgEj.jpg') ; */
+  /* background-size:cover; */
+  width: 25rem;
+  max-width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  margin: auto;
 }
 
-.femenino{
-    background-image: url('../img/cuerva.jpg') ; 
-    background-size:cover;
+.femenino {
+  background-image: url("../img/cuerva.jpg");
+  background-size: cover;
 }
 
-.masculino{
-    background-image: url('../img/cuervo.jpg') ; 
-    background-size:contain;
-    background-repeat: no-repeat;
+.masculino {
+  background-image: url("../img/cuervo.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.cuervos{
-    width: 288px;
-    height: 257px;
-    }
-
-.rowCuervo{
-    margin-top: 2em;
+.cuervos {
+  width: 288px;
+  height: 257px;
 }
 
-.rowCuerva{
-    display: flex;
-    justify-content: center;
-}
-.cuervo-wrap{
-    width: 288px;
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    align-items: center;
-    margin: 0px auto;
+.rowCuervo {
+  margin-top: 2em;
 }
 
-.cuervaCol{
-    width: 288px;
-    margin: 0 72.5px;
-    padding: 0px;
+.rowCuerva {
+  display: flex;
+  justify-content: center;
+}
+.cuervo-wrap {
+  width: 288px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  margin: 0px auto;
 }
 
-
-
-.modelo{
-    width: 100%;
-    height: 38px;
-    font-weight: 800;
-    color: white;
-    font-family:'Nunito', sans-serif ;
-    font-size: 23.18px;
+.cuervaCol {
+  width: 288px;
+  margin: 0 72.5px;
+  padding: 0px;
 }
 
-.generos a{
-    background-color: #263D54;
-    padding: .2em .5em;
-    text-decoration: none;
-    color: white;
+.modelo {
+  width: 100%;
+  height: 38px;
+  font-weight: 800;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 23.18px;
 }
 
-.carouselImg{
-    width: 100%;
-    height: 23em;
+.generos a {
+  background-color: #263d54;
+  padding: 0.2em 0.5em;
+  text-decoration: none;
+  color: white;
 }
 
-.carousel{
-    margin-bottom: 5em;
-    height: 23rem;
-    position: relative;
-    top: 6em;
+.carouselImg {
+  width: 100%;
+  height: 23em;
+}
+
+.carousel {
+  margin-bottom: 5em;
+  height: 23rem;
+  position: relative;
+  top: 6em;
 }
 
 .carousel-indicators [data-bs-target] {
-    width: 15px;
-   height: 15px;
-   margin-left: .5em;
-   border-radius: 100%;
-   background-color: red;
- }
-
-.paraQuienPage{
-    padding-top: 6em;
+  width: 15px;
+  height: 15px;
+  margin-left: 0.5em;
+  border-radius: 100%;
+  background-color: red;
 }
 
- footer{
-    background-color: #263D54;
-    color: white;
-    font-weight: 700;
-    display: flex;
-    justify-content: space-around;
-    padding: 2em 0;
-    align-items: center;
- }
-
-#footerLeft{
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-    
+.paraQuienPage {
+  padding-top: 6em;
 }
 
-.pagos{
-    width: 140px;
+footer {
+  background-color: #263d54;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 0;
+  align-items: center;
 }
 
-#contactanos{
-     display: flex;
-     flex-flow: column;
-     line-height: none;
- }
-
- .displayRedes{
-     display: flex;
-     align-items: center;
-     margin-bottom: 1em;
- }
-
- .displayRedes p{
-     margin-bottom: 0;
-     margin-left: .5em;
- }
-
- .metPagoEnvio{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    
- }
-
- #imgMedios{
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: center;
-     align-items: center;
-     width: 30%;
- }
-
- #equipo{
-     padding-top:250px;
- }
-
- #equipo h2{
-     font-size: 30px;
-     font-weight: 700;
-     color: #fff;
- }
-
- #equipo p{
-     color: #fff;
- }
-.equipo-img{
-    width: 610px;
+#footerLeft {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
 }
 
-#equipo h1{
-    font-size: 40px;
-    font-weight: 800;
-    color: #fff;
-    display: inline-block;
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.pagos {
+  width: 140px;
 }
- 
+
+#contactanos {
+  display: flex;
+  flex-flow: column;
+  line-height: none;
+}
+
+.displayRedes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.displayRedes p {
+  margin-bottom: 0;
+  margin-left: 0.5em;
+}
+
+.metPagoEnvio {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#imgMedios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+#equipo {
+  padding-top: 250px;
+}
+
+#equipo h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#equipo p {
+  color: #fff;
+}
+.equipo-img {
+  width: 610px;
+}
+
+#equipo h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 #equipo h1::after {
-    content: "";
-    display: block;
-    background:#263D54;
-    width: 110%;
-    height: 20px;
-    margin-top: -15px;
-    position: relative;
-    z-index: -1;
+  content: "";
+  display: block;
+  background: #263d54;
+  width: 110%;
+  height: 20px;
+  margin-top: -15px;
+  position: relative;
+  z-index: -1;
 }
 
 #equipo .rounded-circle {
-    width: 100px;
-    margin: auto;
+  width: 100px;
+  margin: auto;
 }
 
-#equipo h3{
-    font-size: 22px;
-    font-weight: 700;
-    color:#fff;
+#equipo h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
 }
 
-.integrante{
-    width: 50%;
+.integrante {
+  width: 50%;
 }
 
-#contacto h1{
-    font-size: 40px;
-    font-weight: 800;
-    width: initial;
-    color: #fff;
-    display: inline-block;
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+#contacto h1 {
+  font-size: 40px;
+  font-weight: 800;
+  width: initial;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
- 
+
 #contacto h1::after {
-    content: "";
-    display: block;
-    background:#263D54;
-    width: 110%;
-    height: 20px;
-    margin-top: -15px;
-    position: relative;
-    z-index: -1;
+  content: "";
+  display: block;
+  background: #263d54;
+  width: 110%;
+  height: 20px;
+  margin-top: -15px;
+  position: relative;
+  z-index: -1;
 }
 
-#contacto h2{
-    font-size: 33.0882px;
+#contacto h2 {
+  font-size: 33.0882px;
 
+  font-weight: 800;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: initial;
+}
+
+#contacto h2::after {
+  content: "";
+  display: block;
+  background: #263d54;
+  width: 110%;
+  height: 20px;
+  margin-top: -15px;
+  position: relative;
+  z-index: -1;
+}
+
+#contacto {
+  padding: 250px;
+}
+
+.iconCont {
+  background-color: white;
+  border-radius: 50%;
+  padding: 15px;
+  color: #263d54;
+}
+
+#contacto p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24.0642px;
+  text-align: center;
+  color: white;
+}
+
+#preguntas h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#preguntas h2::after {
+  content: "";
+  display: block;
+  background: #263d54;
+  width: 110%;
+  height: 20px;
+  margin-top: -15px;
+  position: relative;
+  z-index: -1;
+}
+
+#preguntas {
+  padding-top: 250px;
+  margin-bottom: 3em;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+#h2Flex {
+  display: flex;
+  justify-content: center;
+}
+
+.accordion-item {
+  width: 25rem;
+  background-color: #1c00ff00;
+}
+.accordion-button {
+  background-color: #1c00ff00;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+
+#preguntasFlex {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.accordion {
+  display: flex;
+  flex-flow: column;
+  justify-self: left;
+}
+
+#preguntas .accordion-button {
+    font-size: 25;
+  
     font-weight: 800;
     color: #fff;
     display: inline-block;
@@ -323,63 +428,15 @@ nav{
     align-items: center;
     flex-direction: column;
     width: initial;
-}
- 
-#contacto h2::after {
+  }
+  
+  #preguntas .accordion-button::after {
     content: "";
     display: block;
-    background:#263D54;
+    background: #263d54;
     width: 110%;
     height: 20px;
     margin-top: -15px;
     position: relative;
     z-index: -1;
-}
-
-
-#contacto{
-    padding: 250px;
-}
-
-.iconCont{
-    background-color: white;
-    border-radius:50%;
-    padding: 15px;
-    color: #263D54;
-}
-
-#contacto p{
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-font-weight: 800;
-font-size: 24.0642px;
-text-align: center;
-color: white;
-}
-
-#preguntas h2{
-  
-        font-size: 40px;
-        font-weight: 800;
-        color: #fff;
-        display: inline-block;
-        position: relative;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-     
-#preguntas h2::after {
-        content: "";
-        display: block;
-        background:#263D54;
-        width: 110%;
-        height: 20px;
-        margin-top: -15px;
-        position: relative;
-        z-index: -1;
-    }
-
-    #preguntas{
-        padding-top: 250px;
-    }
+  }
