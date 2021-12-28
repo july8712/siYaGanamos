@@ -433,3 +433,7 @@ footer {
     position: relative;
     z-index: -1;
   }
+
+  .accordion-button:focus{
+      box-shadow: none !important;
+  }
