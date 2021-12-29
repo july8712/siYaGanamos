@@ -160,12 +160,12 @@ nav {
 
 .carouselImg {
   width: 100%;
-  height: 23em;
+  /* height: 23em; */
 }
 
 .carousel {
   margin-bottom: 5em;
-  height: 23rem;
+  /* height: 23rem; */
   position: relative;
   top: 6em;
 }
@@ -440,4 +440,12 @@ footer {
 
   .accordion-button:focus{
       box-shadow: none !important;
+  }
+
+  .mediosDePago{
+    width: 165px;
+  }
+
+  .mediosDeEnvio{
+    width:127px;
   }
