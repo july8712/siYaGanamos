@@ -30,11 +30,10 @@ header img {
   margin: 17px 121px;
 }
 
-.nav-link {
-  color: white !important;
-  margin-right: 63px;
-  font-family: "Nunito", sans-serif;
-  font-weight: 800;
+.nav-link:hover {
+  border-bottom: 2px solid white !important;
+  
+ 
 }
 
 .nav-link{
@@ -43,6 +42,7 @@ header img {
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
     border-bottom: 2px solid transparent !important;
+    font-size: 22px;
 }
 
 nav {
@@ -382,6 +382,7 @@ footer {
   display: flex;
   justify-content: center;
   width: 70%;
+  color: #fff;
 }
 
 #h2Flex {
@@ -390,7 +391,7 @@ footer {
 }
 
 .accordion-item {
-  width: 25rem;
+  width: 80%;
   background-color: #1c00ff00;
 }
 .accordion-button {
@@ -412,6 +413,9 @@ footer {
   display: flex;
   flex-flow: column;
   justify-self: left;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size:25px;
 }
 
 #preguntas .accordion-button {
@@ -448,4 +452,18 @@ footer {
 
   .mediosDeEnvio{
     width:127px;
+  }
+
+  .volver{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: Nunito;
+    padding: 10px 20px;
+    background-color:rgba(38, 61, 84, 0.6);
+  }
+  .volver:hover{
+    color: #fff;
+    background-color:rgba(191, 27, 39, 0.6);
   }
