@@ -16,40 +16,44 @@
 <body>
     <!-- Header -->
     
-    <header>
-    
-        <a href="../index.html"><img src="../img/logo.png" alt="logoSYG"></a>
-    
-        <nav>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Equipo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tuRemera.html">Tu Remera</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="../index.html"><img src="../img\logo.png" alt="logoSYG"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="../img/menu.png" alt="menu" class="hamburguesa">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tuRemera.html">Tu Remera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Comienza el contenido -->
     <main>
         <div class="container" id="equipo">
             <div class="row mb-5">
                 <div class="col-md-6">
-                    <img src="../img/equipo.jpg" alt="equipo" class="equipo-img"> 
+                    <img src="../img/equipo.jpg" alt="equipo" class="equipo-img img-fluid"> 
                 </div>
                 
-                <div class="col-md-6">
+                <div class="col-md-6 d-flex flex-column align-items-center align-items-sm-start">
                     <h2 class="mb-5">Y así surgío...</h2>
                     <p>En junio del 2020, en plena cuarentena por el avance del coronavirus en la Argentina. Martin y Fernando, dos hinchas y
                     socios fanáticos de San Lorenzo, se pusieron a pensar en crear un emprendimiento propio que esté relacionado a su gran
@@ -67,16 +71,16 @@
 
                 <div class="row mb-5 mt-5">
                     <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
-                        <div class="d-flex flex-column align-items-center justify-content-center">
-                            <img src="../img/fernando.png" alt="Fernando" class="rounded-circle ">
+                        <div class="d-flex flex-column align-items-center justify-content-center intFoto">
+                            <img src="../img/fernando.png" alt="Fernando" class="rounded-circle">
                         </div>
                         <h3 class="text-center mt-5 integrante mb-4">Fernando</h3>
                         <p class="integrante">Se ocupa de la comunicación con los clientes, la logística para el envío de los productos y el armado del packaging.</p>
                     </div>
                 
-                    <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+                    <div class="col-md-6 d-flex flex-column align-items-center justify-content-center intFoto">
                         <div class="d-flex flex-column align-items-center justify-content-center">
-                            <img src="../img/martin.png" alt="Martín" class="rounded-circle ">
+                            <img src="../img/martin.png" alt="Martín" class="rounded-circle">
                         </div>
                         <h3 class="text-center mt-5 integrante mb-4">Martín</h3>
                         <p class="integrante">Mantiene el contacto a diario con los proveedores y forma parte de la logística de envíos.</p>
@@ -89,31 +93,33 @@
     <!-- Comienza el footer -->
     
     <footer>
-        <div id="footerLeft">
-            <div id="contactanos" class="footerLeftDiv">
-                <p>Contactos</p>
-                <div class="displayRedes">
+        <div id="footerLeft" class="container">
+            <div class="row">
+                <div id="contactanos" class="col-md-4">
+                    <h3>Contactos</h3>
+                    <div class="displayRedes">
     
-                    <span class="iconify" data-icon="akar-icons:whatsapp-fill"></span>
-                    <p>+54 11 59261549</p>
+                        <span class="iconify" data-icon="akar-icons:whatsapp-fill"></span>
+                        <p>+54 11 59261549</p>
+                    </div>
+                    <div class="displayRedes">
+                        <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+                        <p> @si.ya.ganamos</p>
+                    </div>
                 </div>
-                <div class="displayRedes">
-                    <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
-                    <p> @si.ya.ganamos</p>
-                </div>
-            </div>
-            <div class="metPagoEnvio">
+                <div class="metPagoEnvio col-md-4">
     
-                <p>Medios De Pago</p>
-                <img src="../img/logos-12.png" alt="medios de pago" class="mediosDePago">
+                    <h3>Medios De Pago</h3>
+                    <img src="../img/logos-12.png" alt="medios de pago" class="mediosDePago">
+                </div>
+                <div class="metPagoEnvio col-md-4">
+                    <h3 class="envio">Medios de envío</h3>
+                    <img src="../img/logos-13.png" alt="Medios De Envio" class="mediosDeEnvio">
+    
+                    <p class="mt-4">© 2022 Si Ya Ganamos</p>
+                </div>
+    
             </div>
-            <div class="metPagoEnvio">
-                <p>Medios de envío</p>
-                <img src="../img/logos-13.png" alt="Medios De Envio" class="mediosDeEnvio">
-            </div>
-        </div>
-        <div>
-            <p>© 2022 Si Ya Ganamos</p>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
