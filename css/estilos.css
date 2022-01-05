@@ -499,7 +499,7 @@ footer h3 {
     justify-content: center;
     flex-flow: column;
     align-items: center;
-    margin-bottom:3em ;
+    margin-bottom:8em ;
   }
 
 .h2FlexRemera {
@@ -550,25 +550,21 @@ footer h3 {
     color: black;
     padding: 0px;
     width: 30%;
+    
   }
 
-
-  #talles a{
-    text-decoration: none;
-    color: white;
-  }
-
-  #talles li{
-    border-right: black solid 1px;
-    /* border-right: 10px; */
-    width: 100%;
-    display: flex;
-    justify-content:center;
+  #colDer img{
+    max-width: 200px;
+    margin-bottom: 1em;
   }
 
   #colIzq{
     display: flex;
-    justify-content: right;
+    justify-content: center;
+
+  }
+  #colIzq img{
+    min-width: 90%;
   }
 
   #colDer{
@@ -658,16 +654,39 @@ text-decoration: none;
 padding: 8px;
 }
 
-.modal img{width: inherit;
-height: 600px;
+.modal img{width: 100%;
+height:100%;
+
 }
 
 
 .modal-body{
   display: flex;
   justify-content: center;
+  min-width: 100px;
+}
+@media (max-width: 1080px) { 
+  /* Tu Remera */
+
+  #circulos{
+     
+    min-width: 80%;
+   
+  }
+  #consultar{
+    width: 80%;
+  }
+  #colDer{
+    margin-left: 0px;
+  }
+  #colIzq{
+ 
+    min-width: 50vw;
+  }
+  /* Fin Tu Remera  */
 
 }
+
 
 @media (max-width: 575.98px) { 
     
@@ -743,6 +762,16 @@ height: 600px;
 
     /* fin equipo */
 
+    /* Tu Remera */
+
+    #circulos{
+     
+      min-width: 100%;
+     
+    }
+    
+    /* Fin Tu Remera  */
+    
     /* footer */
 
     #contactanos, .displayRedes, .metPagoEnvio{
