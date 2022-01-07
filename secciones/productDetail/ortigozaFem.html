@@ -56,35 +56,26 @@
     <main>
       <section id="tuRemera">
 
+        <!-- Button trigger modal -->
 
-<!-- Button trigger modal -->
-
-  
-  <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog " style="width: 600px;">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+              <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog " style="width: 600px;">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="../../img/tabla.jpg" alt="">
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="modal-body">
-          <img src="../../img/tabla.jpg" alt="">
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  
-        
-        <!-- Modal -->
-        <div
-          class="modal fade"
-          id="exampleModalCenter"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="exampleModalCenterTitle"
-          aria-hidden="true"
-        >
+                
+                      
+                      <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -107,25 +98,46 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="h2FlexRemera">
-            <h2 class="remeraTitle" class="mb-5">Tu Remera</h2>
-          </div>
-        </div>
-        <div class="row" id="rowRemeras">
-          <div class="col" id="colIzq">
-            <img src="../../img/CUERVA  ORTIGOZA.png" alt="" />
-          </div>
-          <div class="col" id="colDer">
-            <h3>MODELO ORTIGOZA</h3>
-            <img src="../../img/talles.png" alt="">
-            <ul id="circulos">
-              <li id="cirUno"></li>
-              <li id="cirDos"></li>
-              <li id="cirTres"></li>
-            </ul>
+        <!-- Comienza remera -->
 
-                       
+        <div class="container">
+
+            <div class="row">
+              <div class=" col-12 h1FlexRemera ">
+                <h1 class="remeraTitle" class="mb-5">Tu Remera</h1>
+              </div>
+            </div>
+
+            <div class="row" id="rowRemeras">
+              <div class="col-12">
+                <img src="../../img/CUERVA  ORTIGOZA.png" alt="ortigoza-mujer" class="img-fluid" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col mt-4 d-flex justify-content-center flex-column align-items-center">
+                <h2>MODELO ORTIGOZA</h2>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col talles d-flex justify-content-center flex-column align-items-center mb-3">
+                <img src="../../img/talles.png" alt="talles de remeras">
+              </div>
+            </div>
+                          
+            <div class="row mt-3">
+              <div class="col ">
+                <ul id="circulos" class="d-flex justify-content-center  mb-3">
+                  <li id="cirUno"></li>
+                  <li id="cirDos"></li>
+                  <li id="cirTres"></li>
+                </ul>
+              </div>
+            </div>
+            
+
+                                    
             <div id="medidas" class="d-flex align-items-center">
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <span
@@ -135,12 +147,14 @@
                     data-width="38"
                     data-height="38"
                   ></span>
-                  <p id="guiaTalles">Guia de talles</p>   </button>
+                  <p id="guiaTalles">Guia de talles</p>   
+                </button>
             </div>
+            
             <div id="consultar" class="d-flex justify-content-center">
               <a href="#">Consultar</a>
             </div>
-          </div>
+                        
         </div>
       </section>
     </main>

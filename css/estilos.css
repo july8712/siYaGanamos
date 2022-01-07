@@ -58,9 +58,10 @@ nav {
 
 #paraQuien {
   padding-bottom: 6em;
+  padding-top: 40px;
 }
 
-#paraQuien h1 {
+#paraQuien h1, #remeras h1, .paraQuienPage h1 {
   display: inline-block;
   font-weight: 800;
   text-align: center;
@@ -72,7 +73,7 @@ nav {
   position: relative;
 }
 
-#paraQuien h1::after {
+#paraQuien h1::after, #remeras h1::after, .paraQuienPage h1::after {
   content: "";
   display: block;
   background: #263d54;
@@ -83,6 +84,11 @@ nav {
   z-index: -1;
 }
 
+.paraQuienPage{
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+
 #generoRemera {
   display: flex;
   width: 100%;
@@ -90,7 +96,10 @@ nav {
   font-weight: 800;
 }
 
-
+#remeras{
+  padding-top: 170px;
+  padding-bottom: 150px;
+}
 
 .femenino {
   background-image: url("../img/cuerva.jpg");
@@ -187,9 +196,6 @@ nav {
   background-color: red;
 }
 
-.paraQuienPage {
-  padding-top: 6em;
-}
 
 footer {
   background-color: #263d54;
@@ -252,7 +258,6 @@ footer h3 {
   color: #fff;
   position: relative;
   display: flex;
-  /* align-items: center; */
   flex-direction: column;
   font-size: 40px;
   
@@ -265,7 +270,7 @@ footer h3 {
   width: 610px;
 }
 
-#equipo h1{
+#equipo h1 {
   font-size: 40px;
   font-weight: 800;
   color: #fff;
@@ -360,8 +365,10 @@ footer h3 {
 }
 
 #contacto {
-  padding: 250px;
+  padding-top: 230px;
+  padding-bottom:200px;
 }
+
 
 .iconCont {
   background-color: white;
@@ -379,7 +386,7 @@ footer h3 {
   color: white;
 }
 
-#preguntas h2 {
+#preguntas h1 {
   font-size: 40px;
   font-weight: 800;
   color: #fff;
@@ -390,7 +397,7 @@ footer h3 {
   flex-direction: column;
 }
 
-#preguntas h2::after {
+#preguntas h1::after {
   content: "";
   display: block;
   background: #263d54;
@@ -502,12 +509,12 @@ footer h3 {
     margin-bottom:8em ;
   }
 
-.h2FlexRemera {
+.h1FlexRemera {
     display: flex;
     justify-content: center;
   }
 
-  #tuRemera h2 {
+  #tuRemera h1 {
     font-size: 40px;
     font-weight: 800;
     color: #fff;
@@ -519,7 +526,7 @@ footer h3 {
     margin-bottom: 48px;
   }
   
-  #tuRemera h2::after {
+  #tuRemera h1::after {
     content: "";
     display: block;
     background: #263d54;
@@ -530,15 +537,15 @@ footer h3 {
     z-index: -1;
   }
 
-  #rowRemeras{
+  /* #rowRemeras{
     width: 90%;
-  }
+  } */
 
   
 
-  #rowRemeras img{
+  /* #rowRemeras img{
     width: 90%;
-  }
+  } */
 
  #talles{
     list-style: none;
@@ -553,7 +560,7 @@ footer h3 {
     
   }
 
-  #colDer img{
+  /* #colDer img{
     max-width: 200px;
     margin-bottom: 1em;
   }
@@ -565,16 +572,16 @@ footer h3 {
   }
   #colIzq img{
     min-width: 90%;
-  }
+  } */
 
-  #colDer{
+  /* #colDer{
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
     margin-left: 113px;
-  }
+  } */
 
-  #rowRemeras h3{
+  #rowRemeras h2, #tuRemera h2{
     font-family: Nunito;
 font-style: normal;
 font-weight: 800;
@@ -714,6 +721,13 @@ height:100%;
 
     
   /* index */
+    
+    #paraQuien {
+    padding-bottom: 2em;
+    padding-top: 40px;
+    
+    }
+  
     #paraQuien h2{
       margin-bottom: 30px;
     }
@@ -724,11 +738,40 @@ height:100%;
       margin-bottom: 30px;
     }
 
-    #paraQuien {
-    padding-bottom: 2em;
+    
+    /* fin index */
+    
+    /* Tu Remera */
+
+    /* .talles{
+      padding-left: 40px;
+    } */
+
+    .talles img{
+      width: 60%;
     }
 
-    /* fin index */
+    /* Fin Tu remera */
+
+    /* Preguntas */
+
+    #preguntas{
+      padding-top:190px;
+    }
+
+    #preguntas h1{
+      font-size: 25px;
+    }
+
+    #preguntas .accordion-button{
+      font-size:22px;
+    }
+
+    .accordion{
+      font-size:20px;
+    }
+
+    /* Fin preguntas */
 
     /* Equipo */
 
@@ -764,14 +807,77 @@ height:100%;
 
     /* Tu Remera */
 
+    #remeras, .paraQuienPage{
+      padding-top:130px;
+      padding-bottom:50px
+    }
+
+    .paraQuienPage h1{
+      margin-top:0;
+      margin-bottom:0;
+    }
+
     #circulos{
+      justify-content: start;
+      
+    }
+
+    #circulos li{
+      width:30px;
+      height:30px;
      
-      min-width: 100%;
-     
+    }
+
+    #tuRemera{
+      padding-top:150px;
+    }
+
+    #tuRemera h1{
+      font-size:25px;
+    }
+
+    #tuRemera h2{
+      font-size:25px;
+    }
+
+    #rowRemeras h2{
+      font-size: 25px;
+    }
+
+    #rowRemeras img{
+      padding:20px;
     }
     
     /* Fin Tu Remera  */
+
+    /* Contacto */
+
+    #contacto{
+      padding-top:180px;
+      padding-bottom: 50px;
+    }
+
+    #contacto h1{
+      font-size:25px;
+    }
+
+    #contacto h2{
+      font-size:22px;
+    }
+
+    #contacto SVG{
+      width: 80px;
+      HEIGHT: 80px;
+    }
     
+    /* Fin Contacto */
+
+    /* Modal */
+
+    .modal-dialog {
+      width:100%;
+    }
+
     /* footer */
 
     #contactanos, .displayRedes, .metPagoEnvio{
