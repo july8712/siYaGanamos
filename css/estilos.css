@@ -501,12 +501,13 @@ footer h3 {
   }
 
   #tuRemera{
-    padding-top: 250px;
+    padding-top: 230px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     flex-flow: column;
     align-items: center;
-    margin-bottom:8em ;
+    /* margin-bottom:8em ; */
   }
 
 .h1FlexRemera {
@@ -541,7 +542,13 @@ footer h3 {
     width: 90%;
   } */
 
-  
+  .remera{
+    width: 90%;
+  }
+
+  .talles{
+    width: 50%;
+  }
 
   /* #rowRemeras img{
     width: 90%;
@@ -553,12 +560,13 @@ footer h3 {
     justify-content: space-around;
     align-items: center;
     background-color: #BF1B27;
-    ;
     color: black;
     padding: 0px;
     width: 30%;
     
   }
+
+  
 
   /* #colDer img{
     max-width: 200px;
@@ -594,7 +602,6 @@ color: #FAFAFA;
 #circulos{
   display: flex;
   list-style: none;
-  width: 30%;
   justify-content: space-around;
   padding: 0px;
 }
@@ -603,6 +610,7 @@ color: #FAFAFA;
   width: 42px;
   height: 42px;
   margin-right: 1em;
+  margin-left:10px;
   border-radius:50% ;
   border:solid white 3px
 }
@@ -618,8 +626,7 @@ color: #FAFAFA;
 }
 
 #cirTres{
-  background-color:#000000
-  ;
+  background-color:#000000;
 }
 
 #guiaTalles{
@@ -638,17 +645,29 @@ color: #FFFFFF;
 
 }
 
-#medidas p{
-  margin:auto 0px ;
-  margin-left: 10px;
+#medidas a{
+      font-family: Nunito;
+      text-decoration: none;
+      color: #FFFFFF;
+      font-size: 30px;
+    }
+
+#medidas img {
+  width: 50px;
+  margin-right: 20px;
 }
 
-#consultar{
+/* #medidas p{
+  margin:auto 0px ;
+  margin-left: 10px;
+} */
+
+/* #consultar {
   width: 30%;
 background-color: #BF1B27;
 border-radius: 10px;
 margin-top: 1em;
-}
+} */
 
 #consultar a{
   font-family: Nunito;
@@ -658,7 +677,9 @@ font-size: 30px;
 line-height: 41px;
 color: #F8F9FA;
 text-decoration: none;
-padding: 8px;
+padding: 10px 60px;
+background-color: #BF1B27;
+border-radius: 10px;
 }
 
 .modal img{width: 100%;
@@ -828,6 +849,15 @@ height:100%;
      
     }
 
+    #medidas img{
+      width:30px;
+      margin-right: 15px;
+    }
+
+    #medidas a{
+      font-size:25px;
+    }
+
     #tuRemera{
       padding-top:150px;
     }
@@ -848,6 +878,17 @@ height:100%;
       padding:20px;
     }
     
+
+    #circulos li#cirTres {
+      margin-right: 0;
+    }
+
+    
+
+    #consultar{
+      margin: auto;
+    }
+
     /* Fin Tu Remera  */
 
     /* Contacto */
@@ -874,7 +915,7 @@ height:100%;
 
     /* Modal */
 
-    .modal-dialog {
+    .modal-dialog, .modal-body img {
       width:100%;
     }
 

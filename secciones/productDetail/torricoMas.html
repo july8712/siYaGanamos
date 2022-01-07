@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+
+    <link rel="stylesheet" href="../../css/estilos.css" />
+    <title>Tú remera | SYG</title>
+</head>
+
+<body>
+    <!-- Header -->
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#"><img src="../../img/logo.png" alt="logoSYG"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <img src="../../img/menu.png" alt="menu" class="hamburguesa">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../equipo.html">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../tuRemera.html">Tu Remera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../preguntas.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <!-- Modelo de remera -->
+
+    <main>
+        <section id="tuRemera">
+
+            <!-- Button trigger modal -->
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog " style="width: 600px;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="../../img/tabla.jpg" alt="tabla">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">
+                                Modal title
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="../../img/tabla.jpg" alt="tabla" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comienza remera -->
+
+            <div class="container pb-5">
+
+                <div class="row">
+                    <div class=" col-12 h1FlexRemera mb-lg-5">
+                        <h1 class="remeraTitle" class="mb-3 mb-lg-5">Tu Remera</h1>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-center">
+                        <div class="row d-flex flex-column justify-content-center align-items-center" id="rowRemeras">
+                            <img src="../../img/CUERVO_A TORRICO.png" alt="ortigoza-mujer" class="img-fluid remera" />
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-lg-6 col-12 d-flex justify-content-center flex-column align-items-center align-items-lg-start">
+                        <div class="row">
+
+                            <h2>MODELO TORRICO</h2>
+
+                        </div>
+
+                        <div class="row mt-4">
+
+                            <img src="../../img/talles.png" alt="talles de remeras"
+                                class="img-fluid talles m-auto m-lg-0">
+
+                        </div>
+
+                        <div class="row mt-4">
+
+                            <ul id="circulos" class="d-flex justify-content-center justify-content-lg-start mb-3 mt-4">
+                                <li id="cirUno"></li>
+                                <li id="cirDos"></li>
+                                <li id="cirTres"></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="row mt-4 mb-lg-5" id="medidas">
+
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img
+                                    src="../../img/ruler.png" alt="regla">Guia de
+                                talles</a>
+
+                        </div>
+
+                        <div class="row mt-5">
+                            <div id="consultar"
+                                class="d-flex col-12 col-lg-6 justify-content-center justify-content-lg-start align-items-center mb-3 mt-3">
+                                <a href="#">Consultar</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="d-flex justify-content-end mt-5">
+                                <a href="../cuervo.html" class="volver">Volver</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Comienza el footer -->
+
+    <footer>
+        <div id="footerLeft" class="container">
+            <div class="row">
+                <div id="contactanos" class="col-md-4">
+                    <h3>Contactos</h3>
+                    <div class="displayRedes">
+
+                        <span class="iconify" data-icon="akar-icons:whatsapp-fill"></span>
+                        <p>+54 11 59261549</p>
+                    </div>
+                    <div class="displayRedes">
+                        <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+                        <p> @si.ya.ganamos</p>
+                    </div>
+                </div>
+                <div class="metPagoEnvio col-md-4">
+
+                    <h3>Medios De Pago</h3>
+                    <img src="../../img/logos-12.png" alt="medios de pago" class="mediosDePago">
+                </div>
+                <div class="metPagoEnvio col-md-4">
+                    <h3 class="envio">Medios de envío</h3>
+                    <img src="../../img/logos-13.png" alt="Medios De Envio" class="mediosDeEnvio">
+
+                    <p class="mt-4">© 2022 Si Ya Ganamos</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

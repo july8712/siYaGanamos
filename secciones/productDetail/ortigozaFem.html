@@ -67,7 +67,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <img src="../../img/tabla.jpg" alt="">
+                <img src="../../img/tabla.jpg" alt="tabla">
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@
                 </button>
               </div>
               <div class="modal-body">
-                <img src="../../img/tabla.jpg" alt="" />
+                <img src="../../img/tabla.jpg" alt="tabla" />
               </div>
             </div>
           </div>
@@ -100,61 +100,65 @@
 
         <!-- Comienza remera -->
 
-        <div class="container">
+        <div class="container pb-5">
 
             <div class="row">
-              <div class=" col-12 h1FlexRemera ">
-                <h1 class="remeraTitle" class="mb-5">Tu Remera</h1>
+              <div class=" col-12 h1FlexRemera mb-lg-5">
+                <h1 class="remeraTitle" class="mb-3 mb-lg-5">Tu Remera</h1>
               </div>
             </div>
 
-            <div class="row" id="rowRemeras">
-              <div class="col-12">
-                <img src="../../img/CUERVA  ORTIGOZA.png" alt="ortigoza-mujer" class="img-fluid" />
+            <div class="row ">
+              <div class="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-center">
+                <div class="row d-flex flex-column justify-content-center align-items-center" id="rowRemeras">
+                    <img src="../../img/CUERVA  ORTIGOZA.png" alt="ortigoza-mujer" class="img-fluid remera" />
+                </div>
               </div>
-            </div>
 
-            <div class="row">
-              <div class="col mt-4 d-flex justify-content-center flex-column align-items-center">
-                <h2>MODELO ORTIGOZA</h2>
-              </div>
-            </div>
+              <div class="col-lg-6 col-12 d-flex justify-content-center flex-column align-items-center align-items-lg-start">
+                <div class="row">
+                  
+                    <h2>MODELO ORTIGOZA</h2>
+                 
+                </div>
 
-            <div class="row">
-              <div class="col talles d-flex justify-content-center flex-column align-items-center mb-3">
-                <img src="../../img/talles.png" alt="talles de remeras">
-              </div>
-            </div>
-                          
-            <div class="row mt-3">
-              <div class="col ">
-                <ul id="circulos" class="d-flex justify-content-center  mb-3">
-                  <li id="cirUno"></li>
-                  <li id="cirDos"></li>
-                  <li id="cirTres"></li>
-                </ul>
-              </div>
-            </div>
-            
+                <div class="row mt-4">
+                  
+                    <img src="../../img/talles.png" alt="talles de remeras" class="img-fluid talles m-auto m-lg-0">
+                 
+                </div>
+                              
+                <div class="row mt-4">
+                  
+                    <ul id="circulos" class="d-flex justify-content-center justify-content-lg-start mb-3 mt-4">
+                      <li id="cirUno"></li>
+                      <li id="cirDos"></li>
+                      <li id="cirTres"></li>
+                    </ul>
+                 
+                </div>
+                
+                <div class="row mt-4 mb-lg-5" id="medidas">
+                  
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="../../img/ruler.png" alt="regla">Guia de
+                      talles</a>
+                 
+                </div>
+                
+                <div class="row mt-5">
+                  <div id="consultar" class="d-flex col-12 col-lg-6 justify-content-center justify-content-lg-start align-items-center mb-3 mt-3">
+                    <a href="#">Consultar</a>
+                  </div>
+                </div>  
 
-                                    
-            <div id="medidas" class="d-flex align-items-center">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    <span
-                    class="iconify"
-                    data-icon="carbon:ruler-alt"
-                    style="color: white"
-                    data-width="38"
-                    data-height="38"
-                  ></span>
-                  <p id="guiaTalles">Guia de talles</p>   
-                </button>
+                <div class="row">
+                  <div class="d-flex justify-content-end mt-5">
+                    <a href="../cuerva.html" class="volver">Volver</a>
+                  </div>
+                
+                </div>
+              </div>
             </div>
-            
-            <div id="consultar" class="d-flex justify-content-center">
-              <a href="#">Consultar</a>
-            </div>
-                        
         </div>
       </section>
     </main>
