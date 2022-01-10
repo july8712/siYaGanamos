@@ -538,6 +538,7 @@ footer h3 {
     z-index: -1;
   }
 
+
   /* #rowRemeras{
     width: 90%;
   } */
@@ -764,9 +765,14 @@ height:100%;
     
     /* Tu Remera */
 
-    /* .talles{
-      padding-left: 40px;
-    } */
+    
+
+    .modal-content{
+      display: flex;
+      justify-content: center;
+    }
+
+    
 
     .talles img{
       width: 60%;
@@ -919,6 +925,11 @@ height:100%;
       width:100%;
     }
 
+    .modal-content{
+      width: 90vw;
+    }
+
+    
     /* footer */
 
     #contactanos, .displayRedes, .metPagoEnvio{
