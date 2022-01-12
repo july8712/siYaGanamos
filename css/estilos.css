@@ -12,6 +12,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+#whatsapp {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
 .navbar-brand {
   margin-right: 0 !important;
 }
@@ -700,6 +706,27 @@ padding: 0px;
 picture{
   width: 100%;
 }
+
+.modal-content{
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  width: 100%;
+}
+
+.modal-header {
+  border: 0;
+  position: absolute;
+z-index: 2;
+top: 0;
+right: 0;
+}
+
+.btn-close {
+  filter: invert(100%);
+  background-color: rgb(255, 255, 255);
+}
+
 @media (max-width: 1080px) { 
   /* Tu Remera */
 
@@ -773,10 +800,11 @@ picture{
 
     
 
-    .modal-content{
-      display: flex;
-      justify-content: center;
-    }
+  .modal-header {
+    
+    top: 10px;
+    right: 10px;
+  }
 
     
 
@@ -935,10 +963,9 @@ picture{
     
     
     .modal-content{
-      width: 60vw;
+      width: 95vw;
       
     }
-
     
     /* footer */
 
